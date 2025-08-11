@@ -1,0 +1,30 @@
+name: Test and Build Resume API
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install Dependencies
+      run: |
+        pip install -r app/requirements.txt
+
+    - name: Run Simple Test
+      run: |
+        python -c "import flask; print('Flask imported successfully')"
+
+    - name: Build Docker Image
+      run: docker build -t resume-api .
