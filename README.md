@@ -17,8 +17,5 @@ docker run -p 5000:5000 resume-api
 ### 1. Localhost page
 ![Localhost page](images/localhost-success.png)
 
-### 2. Docker 1a
-![Docker 1a](images/Docker-success-page-proof-1a.png)
-
-### 3. Docker 1b
-![Docker 1b](images/Docker-success-page-proof-1b.png)
+### 2. Docker
+![Docker](images/Docker-success-page-proof.png)
