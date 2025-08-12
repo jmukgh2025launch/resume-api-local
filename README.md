@@ -14,8 +14,14 @@ docker run -p 5000:5000 resume-api
 
 ## Project Screenshots
 
-### 1. Localhost page
-![Localhost page](images/localhost-success.png)
+### 1. Original Localhost test page
+![Original Localhost test page](images/localhost-success.png)
 
-### 2. Docker
+### 2. Resume shot - Raw JSON version
+![Resume shot - Raw JSON version](images/Resume-shot-Raw-JSON-version.png)
+
+### 3. Resume shot - HTML & CSS version
+![Resume shot - HTML & CSS version](images/Resume-shot-HTML-&-CSS-version.png)
+
+### 4. Docker
 ![Docker](images/Docker-success-page-proof.png)
